@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #6e1c1c;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+  }
+  img{
+    position: absolute;
+    left: 210px;
+    top: -10px;
+  }
+h4{
+  position: absolute;
+  left: 240px;
+  top: -30px;
+}
+p{
+  position: absolute;
+  left: 240px;
+  top: -10px;
+  color: grey;
+}
