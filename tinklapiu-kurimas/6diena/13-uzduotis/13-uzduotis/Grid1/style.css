@@ -1,0 +1,14 @@
+.left{
+    grid-area: left;
+}
+.middle{
+    grid-area: middle;
+}
+.right{
+    grid-area: right;
+}
+.container{
+display: grid;
+grid-template-areas: "left middle right";
+
+}

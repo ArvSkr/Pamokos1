@@ -1,0 +1,17 @@
+.container{
+    grid-gap: 10px;
+    grid-template-areas: repeat(2, 1fr);
+}
+h1{
+    color: white;
+}
+body{
+    background-color: grey;
+}
+p{
+    margin-right: 70%;
+    color: white;
+}
+h3{
+ color: white;
+}
