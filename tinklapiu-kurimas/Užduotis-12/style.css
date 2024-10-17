@@ -1,0 +1,28 @@
+#gender{
+    margin-right: 10px;
+}
+input[type=text] {
+    width: 200px;
+    padding: 5px 5px;
+    margin: 8px ;
+    box-sizing: border-box;
+  }
+
+  input[type=radio]{
+    margin-left: 90px;
+  }
+ #comment{
+    margin-bottom: -30px;
+ }
+ input[type=time]{
+    margin: 10px;
+ }
+ input[type=submit]{
+   padding: 20px ;
+    background-color: #c3c1c1;
+    margin-left: 140px;
+ }
+ input[type=submit]:hover{
+    background-color: #ff2600;
+    color: white;
+ }

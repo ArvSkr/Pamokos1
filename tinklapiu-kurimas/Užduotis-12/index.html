@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DANCE</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dance Registration</h1>
+    <header>
+      Fill the registration form below keenly to neter the dancing competition
+    </header>
+    <hr />
+    <form action="dance.php">
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="fname" placeholder="First Name" />
+      <input type="text" id="fname" name="fname" placeholder="Last name" />
+      <br />
+      <label for="email">E-mail</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="ex: myname@example.com"
+      />
+      <br />
+      <label for="phonenr">Phone number</label>
+      <input
+        type="text"
+        id="phonenr"
+        name="phonenr"
+        placeholder="area code"
+      />-<input
+        type="text"
+        id="phonenr"
+        name="phonenr"
+        placeholder="phone number"
+      />
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" id="gender" name="gender" />
+      Male <input type="radio" id="gender" name="gender" /> Female<br />
+      <label for="addr">Address</label>
+      <input type="text" id="addr" name="addr" placeholder="Street Address" />
+      <br />
+      <input
+        type="text"
+        id="addr"
+        name="addr"
+        placeholder="Street Address Line 2"
+      />
+      <br />
+      <input type="text" id="addr" name="addr" placeholder="City" />
+      <input
+        type="text"
+        id="addr"
+        name="addr"
+        placeholder="State/Province"
+      /><br />
+      <input type="text" id="addr" name="addr" placeholder="Postal/Zip Code" />
+      <br />
+      <hr />
+      <label for="dance">Type of Dance</label><br />
+      <input type="radio" name="dance" id="dance" />Salsa <br />
+      <input type="radio" name="dance" id="dance" /> Bachata<br />
+      <input type="radio" name="dance" id="dance" />Tango <br />
+      <input type="radio" name="dance" id="dance" />Hip Hop <br />
+      <input type="radio" name="dance" id="dance" />Club <br />
+      <input type="radio" name="dance" id="dance" />
+      <input type="text" name="dance" id="dance" placeholder="Other" /><br />
+      <label for="calendar">Start Day &Time</label>
+      <input type="date" name="calendar" id="calendar" />
+      <input type="time" name="calendar" id="calendar" /> <br />
+      <label for="comment" >Comments</label>
+      <textarea name="comment" id="comment" rows="4", cols="50"></textarea> <br>
+      <br>
+      <br>
+      <input type="submit">
+    </form>
+  </body>
 </html>
