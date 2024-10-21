@@ -3,87 +3,71 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
-    font-size: 40px;
-    color: purple;
-    grid-column: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+header {
+  font-size: 40px;
+  color: purple;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 nav {
-    background-color: rgb(178, 12, 178);
-    color: white;
-    font-size: 20px ;
-    box-sizing: border-box;
-display: flex;
-    text-align: center;
+  background-color: rgb(178, 12, 178);
+  color: white;
+  font-size: 20px;
+  text-align: center;
   padding: 14px 16px;
- flex: 25%;
-  font-size: 17px;
-    
+  display: flex;
+  justify-content: space-around;
 }
 
-main img{
-    width: 100%;
-    height: auto;
-    
+main img {
+  width: 100%;
+  height: auto;
 }
-main div{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    
-    transform: translate(-55%, 400%);
-    font-size: 30px ;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.center {
-    position: relative;
-    text-align: center;
-    color: #a20ed0;
-  }
-  h3{
-    text-align: center;
-    color: rgb(207, 15, 207);
-    
-  } 
-  .container{
-    position:relative;
-    display: grid;
-    grid: 10%;
-    grid-column:4 ;
-    grid-template-columns: repeat(4, 1fr);
-    height: 1fr;
 
-    grid-template-areas: "dog1 dog2 dog3 dog4 ";
-   }
- .dog-1{
-    grid-area: dog1 ;
- }
- .dog-2{
-    grid-area: dog2 ;
- }
- .dog-3{
-    grid-area: dog3 ;
- }
- .dog-4{
-    grid-area: dog4 ;
- }
-  section img{
-    position:absolute;
-    width: 30%;
-    height: auto;
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-   section h5{
-    position:absolute;
-    left: 5%;
-    top: 75%;
-    font-size: 20px;
-   }
-   section p{
-    position: absolute;
-    top: 78%;
-    color: grey;
-   }
-  
+main div {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-55%, 400%);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gyvunas {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.gyvunas img {
+  width: 100%;
+  height: auto;
+}
+
+.gyvunas h5 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.gyvunas p {
+  font-size: 14px;
+  color: #333;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: purple;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
