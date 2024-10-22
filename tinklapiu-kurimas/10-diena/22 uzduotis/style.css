@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+        
+    }
+.dog{
+    width: 100%;
+    height: auto;
+    filter: blur(4px);
+    position: absolute;
+    
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+}
+input[type=submit]{
+    background-color: rgb(250, 69, 69);
+    color: white;
+    
+}
+select{
+    padding: 10px;
+}
+label{
+    padding: 10px;
+    border: 1px solid ;
+    background-color: white;
+    font-size: 20px;
+}
+.flex-form{
+    border: 10px solid rgb(166, 166, 166);
+    background-color: white;
+    display:flex;
+   line-height: 40px;
+   
+}
+input[type=date]{
+    font-style: italic;
+    font-size: 20px;
+}
+input[type=search]{
+    width: 400px;
+}
