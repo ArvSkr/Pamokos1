@@ -51,19 +51,18 @@ main h2{
     border: 1px solid #ccc;
 }
 
-/* Mobile styles */
-.mobile {
-    display: block; /* Visible on mobile */
-}
-
-.desktop {
-    display: none; /* Hidden on mobile */
-}
+.menuicon {
+    width: 24px;
+  }
+  
 main h1{
     font-size: 40px;
    
 }
-
+.puse-desktope,
+.contento-desktope {
+  display: none;
+}
 
 @media screen and (min-width: 726px) {
     .grid-container {
@@ -75,4 +74,11 @@ main h1{
  
 }
 
-  
+.side {
+    display: flex;
+    border: 2px solid gray;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: side;
+  }
