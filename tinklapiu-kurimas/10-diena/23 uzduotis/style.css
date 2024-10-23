@@ -18,7 +18,8 @@
   
 }
 .icon-bar {
-  position: sticky;
+  position: fixed;
+  bottom: 0;
   background-color: rgb(218, 218, 11);
   display: flex;
   color: #756528;
