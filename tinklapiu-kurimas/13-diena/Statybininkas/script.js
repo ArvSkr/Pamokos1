@@ -1,7 +1,7 @@
 "use strict"
-const ilgis = 4
-const aukstis = 3
-const kaina = 0.5
+const ilgis = parseInt(prompt("Sienos ilgis:"))
+const aukstis = parseInt(prompt("Sienos aukstis:"))
+const kaina = parseInt(prompt("Plytos kaina:"))
 
 const plytoskiekis = (ilgis /0.2) * (aukstis / 0.1)
 const plytukaina = plytoskiekis * kaina
