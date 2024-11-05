@@ -4,14 +4,14 @@ let voveriukai = parseInt(prompt("Vovieriuku skaicius V="));
 
 
 let dienos = 0;
-while (sukauptiRiesutai > dienos) {
+while (sukauptiRiesutai > 0) {
   sukauptiRiesutai -= voveriukai * 3;
   if (sukauptiRiesutai > 0) {
     dienos++;
   }
 
 }
-if (dienos > 92) {
+if (dienos >= 92) {
   console.log(`Riesutu sukaupta ${dienos} dienoms`);
   console.log(`Riesutu uzteks visai ziemai`);
 } else {
