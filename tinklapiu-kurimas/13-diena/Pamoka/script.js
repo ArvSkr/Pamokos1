@@ -1,10 +1,10 @@
 "use strict"
-let pirmadienis = parseInt(prompt("Kiek Pamokų yra pirmadienį:")) 
-let antradienis = parseInt(prompt("Kiek Pamokų yra antradienį:")) 
-let Treciadienis = parseInt(prompt("Kiek Pamokų yra treciadienį:")) 
-let Ketvirtadienis = parseInt(prompt("Kiek Pamokų yra ketvirtadieniį:")) 
-let penktadienis = parseInt(prompt("Kiek Pamokų yra penktadieni:")) 
+const pirmadienis = parseInt(prompt("Kiek Pamokų yra pirmadienį:")) 
+const antradienis = parseInt(prompt("Kiek Pamokų yra antradienį:")) 
+const treciadienis = parseInt(prompt("Kiek Pamokų yra treciadienį:")) 
+const ketvirtadienis = parseInt(prompt("Kiek Pamokų yra ketvirtadieniį:")) 
+const penktadienis = parseInt(prompt("Kiek Pamokų yra penktadieni:")) 
 
-let pmksk = pirmadienis+antradienis+Treciadienis+Ketvirtadienis+penktadienis
-console.log(`Pamokų skaičius: ${pmksk}`)
-console.log(`Isviso minuciu: ${pmksk *45}`)
+const pamokuskaicius = pirmadienis+antradienis+treciadienis+ketvirtadienis+penktadienis
+console.log(`Pamokų skaičius: ${pamokuskaicius}`)
+console.log(`Isviso minuciu: ${pamokuskaicius *45}`)
