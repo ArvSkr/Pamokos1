@@ -13,5 +13,5 @@ while (gautiSaldainiai > 0) {
   }
 }
 console.log(
-  `Petriukui saldainiu uzteks ${dienos} dienoms ir jam liks ${likeSaldainiai} saldainiai`
+  `Petriukui saldainiu uzteks ${dienos} dienoms ir jam liks ${saldainiaiLike} saldainiai`
 );
