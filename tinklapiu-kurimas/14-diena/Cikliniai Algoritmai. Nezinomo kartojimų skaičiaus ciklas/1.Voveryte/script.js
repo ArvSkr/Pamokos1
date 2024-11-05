@@ -4,11 +4,11 @@ let voveriukai = parseInt(prompt("Vovieriuku skaicius V="));
 
 
 let dienos = 0;
-while (sukauptiRiesutai > 0) {
-  sukauptiRiesutai -= voveriukai * 3;
-  if (sukauptiRiesutai > 0) {
+while (sukauptiRiesutai >= (voveriukai * 3)) {
+  sukauptiRiesutai -= (voveriukai * 3);
+
     dienos++;
-  }
+  
 
 }
 if (dienos >= 92) {
