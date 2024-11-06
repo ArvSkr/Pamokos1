@@ -250,7 +250,20 @@ const people = [
   "Hannah",
   "Lucas",
 ];
-for(){
-    
+let kiek = 0
+for( let i = 0; i <= people.length; i++){
+
+
+  if (people[i] === "Waldo") {
+    kiek++
+    console.log(i)
+   
+    console.log(kiek)
+  }
+
 }
 
+
+
+   
+  
